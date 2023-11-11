@@ -8,13 +8,14 @@ body {
 .photo-container {
     position: relative;
     width: 100%;
-    margin: 0; /* Remove margin */
+    margin: 0; /* Ensure no margin */
 }
 
 .photo-container img {
     width: 100%;
     height: auto;
-    display: block; /* This removes any default space below the image */
+    display: block; /* Remove default space below the image */
+    margin: 0; /* Ensure no margin */
 }
 
 .transparent-link {
@@ -30,6 +31,11 @@ body {
 .content {
     margin: 0; /* Remove margin */
     padding: 0; /* Remove padding */
+}
+
+.content h1 {
+    margin: 0; /* Remove margin from the title */
+    padding: 0; /* Remove padding from the title */
 }
 
 @media (max-width: 768px) {
