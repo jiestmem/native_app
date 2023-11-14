@@ -28,6 +28,18 @@ body {
     border: none;
 }
 
+.advertisement {
+    position: absolute;
+    top: 10px; /* Adjust as needed */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust for exact centering */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    color: white;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
 .content {
     margin: 0; /* Remove margin */
     padding: 0; /* Remove padding */
